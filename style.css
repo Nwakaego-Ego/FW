@@ -253,6 +253,36 @@ img {
   }
 
   .about-image {
-    border: 1px solid red;
+    height: 350px;
+    width: 250px;
+    border-radius: 4px;
+    padding-top: 50px;
+    margin-left: 100px;
+  }
+
+  .about-main-image {
+    background-color: #1b1b1b;
+  }
+
+  .about-paragraph {
+    text-align: center;
+  }
+
+  .about-container {
+    padding: 0;
+    /* margin-bottom: 80px; */
+  }
+
+  .FE {
+    width: 390px;
+    margin-top: 50px;
+  }
+
+  .about-paragraph {
+    margin-top: 80px;
+  }
+
+  .about-project-img {
+    margin: 0px;
   }
 }
