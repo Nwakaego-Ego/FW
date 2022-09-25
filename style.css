@@ -144,7 +144,7 @@ img {
 }
 
 .about-container {
-  padding-top: 150px;
+  padding: 150px 0 0 150px;
   margin-bottom: 80px;
 }
 
@@ -250,5 +250,9 @@ img {
     padding: 0;
     text-align: center;
     margin-right: 20px;
+  }
+
+  .about-image {
+    border: 1px solid red;
   }
 }
