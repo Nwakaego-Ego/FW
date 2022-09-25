@@ -288,8 +288,17 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 230px;
+    width: 500px;
     height: 100px;
+  }
+
+  .about-img {
+    margin-left: 15px;
+  }
+
+  .about-hair {
+    margin-left: 80px;
+    /* border: 1px solid red; */
   }
 
   .shecodes-word {
