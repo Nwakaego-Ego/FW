@@ -188,7 +188,7 @@ img {
   margin-bottom: 80px;
 }
 
-.about-footer {
+.footer {
   background-color: #282323;
   width: 1440px;
   height: 80px;
@@ -210,12 +210,41 @@ img {
   line-height: 19px;
 }
 
-.shecodes-word {
+.footer-word {
   font-family: var(--general-font);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 19px;
+}
+
+.photo-gallery {
+  padding: 100px 0 50px 0;
+}
+
+.contact-header {
+  padding: 100px 0 50px 0;
+}
+
+.contact-page {
+  color: var(--primary-color);
+  font-family: var(--general-font);
+  background-color: #1b1b1b;
+}
+
+.contact-address,
+.contact-email,
+.contact-phone,
+.contact-header {
+  color: var(--secondary-color);
+}
+
+.contact-email-link {
+  color: var(--primary-color);
+}
+
+.email {
+  margin-bottom: 70px;
 }
 
 @media (max-width: 750px) {
@@ -283,12 +312,12 @@ img {
     margin: 0px;
   }
 
-  .about-footer {
+  .footer {
     background-color: #282323;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 390px;
+    width: 400px;
     height: 100px;
   }
 
@@ -301,7 +330,7 @@ img {
     /* border: 1px solid red; */
   }
 
-  .shecodes-word {
+  .footer-word {
     margin: 3px;
   }
 
