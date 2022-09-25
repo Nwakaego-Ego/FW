@@ -247,6 +247,21 @@ img {
   margin-bottom: 70px;
 }
 
+.photo-page {
+  background-color: #1b1b1b;
+  font-family: var(--general-font);
+  color: var(--primary-color);
+  /* background-color: #1a1a1a;  */
+}
+
+.photo-img-1,
+.photo-img-2,
+.photo-img-3 {
+  border: 25px solid #212121;
+  /* border: 25px solid var(--secondary-color); */
+  border-radius: 4px;
+}
+
 @media (max-width: 750px) {
   .main-image {
     display: none;
