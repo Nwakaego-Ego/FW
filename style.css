@@ -6,11 +6,65 @@
   --secondary-color: #407140;
 }
 
-body {
-  overflow: hidden;
+.main-logo {
+  border: 5px solid var(--primary-color);
+  max-width: 50px;
+  padding: 8px;
+  margin: 10px 10px 10px 30px;
+  border-radius: 4px;
+  color: var(--secondary-color);
+}
+
+.logo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.logo:hover {
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  line-height: 65px;
+  /* margin: 5px; */
+  margin-right: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2727;
+  /* background-color: #212121; */
+}
+
+a {
+  text-decoration: none;
+  /* color: #282323; */
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: var(--general-font);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.active {
+  color: var(--secondary-color);
+  font-weight: 600;
 }
 
 .hero {
+  /* background-color: #1b1b1b; */
   background-color: var(--bg-color);
   padding: 105px 0 30px 0;
 }
@@ -179,6 +233,11 @@ img {
   font-family: var(--paragraph-font);
   font-weight: 500;
   padding: 12px 25px;
+  color: var(--primary-color);
+}
+
+.about-button:hover {
+  color: #2d2727;
 }
 
 .about-project-img {
@@ -267,9 +326,6 @@ img {
 }
 
 @media (max-width: 750px) {
-  body {
-    overflow: hidden;
-  }
   .main-image {
     display: none;
   }
@@ -341,6 +397,7 @@ img {
     text-align: center;
     width: 400px;
     height: 100px;
+    overflow: hidden;
   }
 
   .about-img {
