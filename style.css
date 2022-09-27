@@ -43,7 +43,7 @@ li {
   display: flex;
   justify-content: space-between;
   background-color: #2d2727;
-  /* background-color: #212121; */
+  /* width: 1350px; */
 }
 
 a {
@@ -192,6 +192,7 @@ img {
 
 .about-page {
   background-color: #1b1b1b;
+  overflow-x: hidden;
 }
 
 .about-main-image {
@@ -312,6 +313,11 @@ img {
 
 .email {
   margin-bottom: 70px;
+}
+
+.main-photo-page {
+  background-color: #1b1b1b;
+  overflow-x: hidden;
 }
 
 .photo-page {
